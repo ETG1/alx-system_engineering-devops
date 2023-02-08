@@ -42,3 +42,6 @@ script prints the type of the file named iamafile. The file iamafile will be in 
 
 13.We are symbols, and inhabit symbols
 Create's a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory.
+
+14.Copy HTML file
+script copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
