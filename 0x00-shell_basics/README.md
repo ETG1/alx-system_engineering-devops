@@ -39,3 +39,6 @@ lists all files (even ones with names beginning with a period character, which a
 
 12.File type
 script prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script.
+
+13.We are symbols, and inhabit symbols
+Create's a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory.
