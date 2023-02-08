@@ -1,2 +1,5 @@
 0.Where am I?
-Description = prints the absolute path name of the current working directory.
+prints the absolute path name of the current working directory.
+
+1.What's in there?
+Display the contents list of your current directory.
