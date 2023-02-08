@@ -30,3 +30,6 @@ Delete's The file betty is in /tmp/my_first_directory
 
 9.Bye bye My first directory
 Delete's the directory my_first_directory that is in the /tmp directory.
+
+10.Back to the future
+changes the working directory to the previous one.
