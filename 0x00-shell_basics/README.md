@@ -27,3 +27,6 @@ Moves the file betty from /tmp/ to /tmp/my_first_directory.
 
 8.Bye bye Betty
 Delete's The file betty is in /tmp/my_first_directory
+
+9.Bye bye My first directory
+Delete's the directory my_first_directory that is in the /tmp directory.
