@@ -33,3 +33,6 @@ Other users: all the permissions
 9.John doe
 sets the mode of the file hello to this:
 -rwxr-x-wx
+
+10.Look in the mirror
+sets the mode of the file hello the same as olleh’s mode.
