@@ -42,3 +42,6 @@ Create a script that adds execute permission to all subdirectories of the curren
 
 12.More directories
 creates a directory called my_dir with permissions 751 in the working directory.
+
+13.Change group
+changes the group owner to school for the file hello
