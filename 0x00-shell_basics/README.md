@@ -58,4 +58,6 @@ deletes all files in the current working directory that end with the character ~
 18.Life is a series of commas,not periods.
 lists all the files and directories of the current directory, separated by commas (,).
 
+19.File type: School
+magic file that it is used to detect school data files
 
