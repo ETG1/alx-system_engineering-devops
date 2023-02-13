@@ -10,4 +10,7 @@ displays content of the file passwd
 displays content of /etc/passwd and /etc/hosts
 
 4.Last lines of a file
-Displays the last 10 lines of /etc/passwd 
+Displays the last 10 lines of /etc/passwd
+
+5.I'd prefer the first ones actually
+Displays the first 10 lines of /etc/passwd 
