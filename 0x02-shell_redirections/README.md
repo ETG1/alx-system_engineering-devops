@@ -7,4 +7,7 @@ prints hello world
 displays content of the file passwd
 
 3.What about 2
-displays content of /etc/passwd and /etc/hosts 
+displays content of /etc/passwd and /etc/hosts
+
+4.Last lines of a file
+Displays the last 10 lines of /etc/passwd 
