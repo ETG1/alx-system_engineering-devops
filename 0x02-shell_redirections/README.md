@@ -16,4 +16,7 @@ Displays the last 10 lines of /etc/passwd
 Displays the first 10 lines of /etc/passwd
 
 6.Line#2
-Displays the third line of the file iacta 
+Displays the third line of the file iacta
+
+7.It'sa good file that cuts iron without making a noise
+ creates a file named \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text "Best School".
