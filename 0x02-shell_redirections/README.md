@@ -20,3 +20,6 @@ Displays the third line of the file iacta
 
 7.It'sa good file that cuts iron without making a noise
  creates a file named \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text "Best School".
+
+8.Save current state of directory
+writes into the file ls_cwd_content the result of the command ls -la
