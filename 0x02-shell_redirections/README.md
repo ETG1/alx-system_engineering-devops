@@ -3,6 +3,9 @@
 0.Hello world
 prints hello world
 
+1.Confused smiley
+scriot displays a confused smiley
+
 2.Let's display a filw
 displays content of the file passwd
 
@@ -43,4 +46,35 @@ takes a list of words as input and prints only words that appear exactly once.
 Displays lines containing the pattern “root” from the file /etc/passwd
 
 15.Count that word
-Display the number of lines that contain the pattern “bin” in the file /etc/passwd
+Displays the number of lines that contain the pattern “bin” in the file /etc/passwd
+
+16.Whats next
+Displays lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
+
+17.I hate bins
+Displays all the lines in the file /etc/passwd that do not contain the pattern “bin”.
+
+18.Letters only please
+Displays all lines of the file /etc/ssh/sshd_config starting with a letter.
+
+19.A to Z
+Replaces all characters A and c from input to Z and e respectively.
+
+20.Without C, you would live in haigo
+ removes all letters c and C from input.
+
+21.esrever
+reverses its input
+
+22.Dj cut killer
+displays all users and their home directories, sorted by users.
+
+23.Empty casks makethe most noise
+finds all empty files and directories in the current directory and all sub-directories.
+
+24.A gif is worth ten thousand words
+lists all the files with a .gif extension in the current directory and all its sub-directories.
+
+25.Acrostic
+decodes acrostics that use the first letter of each line
+
