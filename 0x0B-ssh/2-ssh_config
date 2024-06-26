@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #Script connects to a server without using a password
 Host
-    HostName 54.236.84.73
+    HostName 52.91.132.179
     User ubuntu
     IdentityFile ~/.ssh/school
     PasswordAuthentication no
