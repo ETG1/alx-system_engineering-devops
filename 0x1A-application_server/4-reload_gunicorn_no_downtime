@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Script reloads Gunicorn in a graceful way.
 
 # Check if Gunicorn master process is running
