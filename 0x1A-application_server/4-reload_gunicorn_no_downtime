@@ -7,8 +7,14 @@ if ! command -v pgrep > /dev/null; then
     exit 1
 fi
 
+# Ensure `pkill` is available
+if ! command -v pkill > /dev/null; then
+    echo "pkill command not found. Please install it to proceed."
+    exit 1
+fi
+
 # Get the PID of the Gunicorn master process
-PID=$(pgrep -x "gunicorn")
+PID=$(pgrep -f 'gunicorn: master' | head -n 1)
 
 if [ -n "$PID" ]; then
     # Send SIGHUP to the Gunicorn master process for a graceful restart
