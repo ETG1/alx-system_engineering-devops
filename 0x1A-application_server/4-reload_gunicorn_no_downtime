@@ -1,14 +1,18 @@
 #!/usr/bin/env bash
 # Script reloads Gunicorn in a graceful way.
 
-# Check if Gunicorn master process is running
-if pgrep -x "gunicorn" > /dev/null
-then
-    # Get the PID of the Gunicorn master process
-    PID=$(pgrep -x "gunicorn")
+# Ensure `pgrep` is available
+if ! command -v pgrep > /dev/null; then
+    echo "pgrep command not found. Please install it to proceed."
+    exit 1
+fi
 
+# Get the PID of the Gunicorn master process
+PID=$(pgrep -x "gunicorn")
+
+if [ -n "$PID" ]; then
     # Send SIGHUP to the Gunicorn master process for a graceful restart
-    kill -HUP $PID
+    kill -HUP "$PID"
 
     echo "Gunicorn gracefully reloaded."
 else
