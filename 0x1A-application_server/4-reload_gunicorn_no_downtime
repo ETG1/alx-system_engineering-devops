@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+# Script reloads Gunicorn in a graceful way.
+
+# Check if Gunicorn master process is running
+if pgrep -x "gunicorn" > /dev/null
+then
+    # Get the PID of the Gunicorn master process
+    PID=$(pgrep -x "gunicorn")
+
+    # Send SIGHUP to the Gunicorn master process for a graceful restart
+    kill -HUP $PID
+
+    echo "Gunicorn gracefully reloaded."
+else
+    echo "Gunicorn is not running."
+fi
+
